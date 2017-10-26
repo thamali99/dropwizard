@@ -78,7 +78,8 @@ logging:
       timeZone: UTC
       maxFileSize: 10MB
 
-# the key needs to match the configuration key of the renderer (ViewRenderer::getConfigurationKey)
+
+# the key needs to match the suffix of the renderer
 viewRendererConfiguration:
     freemarker:
         strict_syntax: yes
