@@ -21,7 +21,7 @@ public class AssetsBundle implements Bundle {
     private static final String DEFAULT_INDEX_FILE = "index.htm";
     private static final String DEFAULT_PATH = "/assets";
 
-    private final String resourcePath
+    private final String resourcePath;
     private final String uriPath;
     private final String indexFile;
     private final String assetsName;
